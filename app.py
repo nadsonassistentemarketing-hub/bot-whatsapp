@@ -53,5 +53,5 @@ def send_whatsapp_message(to_number, text):
     }
     requests.post(url, headers=headers, json=payload)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
