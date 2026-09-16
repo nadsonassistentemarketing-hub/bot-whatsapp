@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import requests
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Credenciais da Meta
 TOKEN = "EAAPdrdCvyjcBSa1U7F4Bhpg0FsZCEcKvSHZAFb1V7ph72CKKpVVZACVAAgLfpPZCfZCKbk8Ye5foxn1JtXAk3oDIaZBM5KBTbgvclhODZAcsZCs1jXIqJBIEyCZBKA99p189nC7UNzQ2iFBq4zD4W4E1waKmEZCuW70W5zwMZAd031RvCe1xJAdYsnIZBCRQizEBxoZBcFIRMxW3LQNXJomKLdOcmjubZAvw9nSCnqmIZAqWdtSUQ4ZBj0aqEwQvDPUwsV0uTChZCbU2TuesnHgbRUF2Qm6j47z3t"
